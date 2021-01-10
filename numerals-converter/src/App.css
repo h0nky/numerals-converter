@@ -1,0 +1,37 @@
+.application_container {
+  background-color: darkslategrey;;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  padding: 8px;
+}
+
+.inputs__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+
+.output__container {
+  padding: 16px;
+  text-align: center;
+  height: 30px;
+}
+
+.output {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.input {
+  padding: 16px;
+}
